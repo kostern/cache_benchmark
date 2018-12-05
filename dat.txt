@@ -1,0 +1,14 @@
+1. Goals and System Boundaries
+The goal of this study is to measure the performance of a benchmark of our networked cache. The key component under study is the connection between client under server that allows for the communication of the cache. The system is the connected server to the client, independent of the client type.
+
+2. Services
+The services are offered by this system are the different cache operations available to the client. These include getting values from the cache, setting values, adding new values and finding the size of the cache
+
+3. Metrics
+The critical metric to look at is latency, the speed at which operations are performed on the cache. The resources, are the client, the server and the network link. This leads to the following metrics:
+a) Elapsed time per operation
+b) ...
+
+4. Parameters
+The system parameters that affect the performance of this networked cache is:
+a) Efficiency of algorithim that implements 
